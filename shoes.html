@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes - UrbanGent</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>UrbanGent - Shoes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shirts.html">Shirts</a></li>
+                <li><a href="pants.html">Pants</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="specs.html">Specs</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="login.html" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <section id="shoes">
+        <h2>Our Shoes Collection</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/shoe.jpg" alt="Shoes 1">
+                <h3>Classic Leather Shoes</h3>
+                <p>$60.00</p>
+                <button onclick="addToCart('Classic Leather Shoes', 60)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/shoe.jpg" alt="Shoes 2">
+                <h3>Running Sneakers</h3>
+                <p>$70.00</p>
+                <button onclick="addToCart('Running Sneakers', 70)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/shoe.jpg" alt="Shoes 3">
+                <h3>Casual Loafers</h3>
+                <p>$55.00</p>
+                <button onclick="addToCart('Casual Loafers', 55)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/shoe.jpg" alt="Shoes 4">
+                <h3>Black Formal Shoes</h3>
+                <p>$80.00</p>
+                <button onclick="addToCart('Black Formal Shoes', 80)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/shoe.jpg" alt="Shoes 5">
+                <h3>High-Top Sneakers</h3>
+                <p>$75.00</p>
+                <button onclick="addToCart('High-Top Sneakers', 75)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/shoe.jpg" alt="Shoes 6">
+                <h3>Brown Boots</h3>
+                <p>$85.00</p>
+                <button onclick="addToCart('Brown Boots', 85)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="payment">
+        <h2>Payment</h2>
+        <p>Proceed to checkout after adding items to your cart.</p>
+        <button onclick="proceedToPayment()">Checkout</button>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 UrbanGent. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

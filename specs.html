@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specs - UrbanGent</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>UrbanGent - Specs</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shirts.html">Shirts</a></li>
+                <li><a href="pants.html">Pants</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="specs.html">Specs</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="login.html" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <section id="specs">
+        <h2>Our Specs Collection</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/Specs.jpeg" alt="Specs 1">
+                <h3>Classic Black Frames</h3>
+                <p>$30.00</p>
+                <button onclick="addToCart('Classic Black Frames', 30)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Specs.jpeg" alt="Specs 2">
+                <h3>Round Vintage Glasses</h3>
+                <p>$35.00</p>
+                <button onclick="addToCart('Round Vintage Glasses', 35)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Specs.jpeg" alt="Specs 3">
+                <h3>Blue Light Blockers</h3>
+                <p>$40.00</p>
+                <button onclick="addToCart('Blue Light Blockers', 40)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Specs.jpeg" alt="Specs 4">
+                <h3>Aviator Sunglasses</h3>
+                <p>$50.00</p>
+                <button onclick="addToCart('Aviator Sunglasses', 50)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Specs.jpeg" alt="Specs 5">
+                <h3>Minimalist Rimless</h3>
+                <p>$45.00</p>
+                <button onclick="addToCart('Minimalist Rimless', 45)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/Specs.jpeg" alt="Specs 6">
+                <h3>Sporty Wrap-Arounds</h3>
+                <p>$55.00</p>
+                <button onclick="addToCart('Sporty Wrap-Arounds', 55)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="payment">
+        <h2>Payment</h2>
+        <p>Proceed to checkout after adding items to your cart.</p>
+        <button onclick="proceedToPayment()">Checkout</button>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 UrbanGent. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

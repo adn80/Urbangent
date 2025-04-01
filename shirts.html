@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirts - UrbanGent</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>UrbanGent - Shirts</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shirts.html">Shirts</a></li>
+                <li><a href="pants.html">Pants</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="specs.html">Specs</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="login.html" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <section id="shirts">
+        <h2>Our Shirt Collection</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/shirt1.jpg"Shirt 1">
+                <h3>Casual White Shirt</h3>
+                <p>$25.00</p>
+                <button onclick="addToCart('Casual White Shirt', 25)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/shirt2.jpg" alt="Shirt 2">
+                <h3>Blue Denim Shirt</h3>
+                <p>$30.00</p>
+                <button onclick="addToCart('Blue Denim Shirt', 30)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/shirt.jpg" alt="Shirt 3">
+                <h3>Formal Black Shirt</h3>
+                <p>$35.00</p>
+                <button onclick="addToCart('Formal Black Shirt', 35)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/shirt.jpg" alt="Shirt 4">
+                <h3>Striped Cotton Shirt</h3>
+                <p>$28.00</p>
+                <button onclick="addToCart('Striped Cotton Shirt', 28)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/shirt1.jpg" alt="Shirt 5">
+                <h3>Checked Flannel Shirt</h3>
+                <p>$32.00</p>
+                <button onclick="addToCart('Checked Flannel Shirt', 32)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/shirt2.jpg" alt="Shirt 6">
+                <h3>Light Grey Polo</h3>
+                <p>$20.00</p>
+                <button onclick="addToCart('Light Grey Polo', 20)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="payment">
+        <h2>Payment</h2>
+        <p>Proceed to checkout after adding items to your cart.</p>
+        <button onclick="proceedToPayment()">Checkout</button>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 UrbanGent. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

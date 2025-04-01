@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pants - UrbanGent</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>UrbanGent - Pants</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shirts.html">Shirts</a></li>
+                <li><a href="pants.html">Pants</a></li>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="specs.html">Specs</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="login.html" class="login-btn">Login</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <section id="pants">
+        <h2>Our Pants Collection</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/pant.jpg" alt="Pants 1">
+                <h3>Classic Blue Jeans</h3>
+                <p>$40.00</p>
+                <button onclick="addToCart('Classic Blue Jeans', 40)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/pant.jpg" alt="Pants 2">
+                <h3>Formal Black Trousers</h3>
+                <p>$50.00</p>
+                <button onclick="addToCart('Formal Black Trousers', 50)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/pant.jpg" alt="Pants 3">
+                <h3>Beige Chinos</h3>
+                <p>$45.00</p>
+                <button onclick="addToCart('Beige Chinos', 45)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/pant.jpg" alt="Pants 4">
+                <h3>Grey Sweatpants</h3>
+                <p>$35.00</p>
+                <button onclick="addToCart('Grey Sweatpants', 35)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/pant.jpg" alt="Pants 5">
+                <h3>Cargo Pants</h3>
+                <p>$38.00</p>
+                <button onclick="addToCart('Cargo Pants', 38)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/pant.jpg" alt="Pants 6">
+                <h3>Slim Fit Khakis</h3>
+                <p>$42.00</p>
+                <button onclick="addToCart('Slim Fit Khakis', 42)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="payment">
+        <h2>Payment</h2>
+        <p>Proceed to checkout after adding items to your cart.</p>
+        <button onclick="proceedToPayment()">Checkout</button>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 UrbanGent. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
